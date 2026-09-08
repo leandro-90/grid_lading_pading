@@ -9,8 +9,15 @@ body {
   background-color: #2a54fe;
 }
 
-.menu {
+.menu-list {
   display: none;
+}
+
+.menu:active {
+  content: url("../assets/images/icon-close.svg");
+}
+.menu:focus {
+  content: url(".menu-list");
 }
 
 .nav {
@@ -36,6 +43,10 @@ section {
   border-style: solid;
   border-width: 1px;
   padding: 5%;
+}
+
+section:hover {
+  background-color: rgba(255, 255, 255, 0.041);
 }
 
 .classroom-card {
