@@ -47,11 +47,12 @@ section {
   font-size: 38px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 120px;
+  margin-bottom: 130px;
 }
 
 h1 {
   font-weight: 500;
+  font-size: 50px;
 }
 
 .subtitle,
@@ -60,15 +61,24 @@ h1 {
   margin: 0;
 }
 
+.state-title {
+  line-height: 0;
+}
+
 .description,
 footer,
 nav {
   font-size: 14px;
 }
 
+.subtitle,
+.description {
+  opacity: 60%;
+}
+
 footer,
 nav {
-  padding: 15px;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
 }
