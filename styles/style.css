@@ -16,13 +16,10 @@ body {
 
 .menu:focus {
   content: url("../assets/images/icon-close.svg");
-<<<<<<< HEAD
-=======
 }
 
 body:has(.menu:focus) .hide {
   visibility: hidden;
->>>>>>> 46a5ee81de24dc7d69f7d14bf16e721003720b6e
 }
 
 .nav {
