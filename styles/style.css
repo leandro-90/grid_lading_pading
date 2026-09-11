@@ -17,9 +17,6 @@ body {
   content: url("../assets/images/icon-close.svg");
 }
 
-main:has(.menu:focus) {
-}
-
 .nav {
   display: flex;
   align-items: center;
