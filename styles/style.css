@@ -9,15 +9,17 @@ body {
   background-color: #2a54fe;
 }
 
+
 .menu-list {
   display: none;
 }
 
-.menu:active {
+.menu:focus {
   content: url("../assets/images/icon-close.svg");
 }
-.menu:focus {
-  content: url(".menu-list");
+
+body:has(.menu:focus) .hide {
+  visibility: hidden;
 }
 
 .nav {
