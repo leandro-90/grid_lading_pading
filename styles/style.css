@@ -13,11 +13,11 @@ body {
   display: none;
 }
 
-.menu:active {
+.menu:focus {
   content: url("../assets/images/icon-close.svg");
 }
-.menu:focus {
-  content: url(".menu-list");
+
+main:has(.menu:focus) {
 }
 
 .nav {
