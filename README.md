@@ -30,9 +30,9 @@ O objetivo principal desta aplicação é explorar e aplicar conceitos de **CSS 
 
 - [x] Estruturação básica do layout em Grid.
 - [x] Design responsivo adaptável a dispositivos móveis e desktops.
-- [ ] *(Em andamento)* Otimização de acessibilidade e marcação semântica.
-- [ ] *(Em andamento)* Efeitos visuais e transições nativas em CSS.
-- [ ] *(Em andamento)* Polimento final de tipografia, espaçamentos e paleta de cores.
+- [x] Otimização de acessibilidade e marcação semântica.
+- [x] Efeitos visuais e transições nativas em CSS.
+- [x] Polimento final de tipografia, espaçamentos e paleta de cores.
 
 ---
 
