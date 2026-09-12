@@ -57,6 +57,26 @@ body:has(.menu:focus) footer {
   background-color: rgb(37, 37, 238);
 }
 
+.menu-list > .menu-list-box {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.menu-list-box > p {
+  margin: 5px;
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 footer {
   grid-column: 1 / -1;
 }
@@ -84,6 +104,13 @@ main {
 }
 
 section {
+  border-color: rgba(255, 255, 255, 0.178);
+  border-style: solid;
+  border-width: 1px;
+  padding: 5%;
+}
+
+.menu-list {
   border-color: rgba(255, 255, 255, 0.178);
   border-style: solid;
   border-width: 1px;
